@@ -554,14 +554,13 @@ video {
   display: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
 }
 
 .my-\[120px\] {
@@ -579,16 +578,6 @@ video {
   margin-bottom: 40px;
 }
 
-.my-\[80px\] {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.my-\[100px\] {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 .mb-\[-30px\] {
   margin-bottom: -30px;
 }
@@ -597,8 +586,16 @@ video {
   margin-left: -30px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .w-\[33\%\] {
@@ -617,36 +614,8 @@ video {
   width: 80%;
 }
 
-.w-\[80\] {
-  width: 80;
-}
-
 .w-\[90\%\] {
   width: 90%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[75\%\] {
-  width: 75%;
-}
-
-.w-\[72\%\] {
-  width: 72%;
-}
-
-.w-\[65\%\] {
-  width: 65%;
-}
-
-.w-\[63\%\] {
-  width: 63%;
-}
-
-.w-\[62\%\] {
-  width: 62%;
 }
 
 .max-w-\[1200px\] {
@@ -665,6 +634,10 @@ video {
   align-items: flex-start;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -681,24 +654,36 @@ video {
   gap: 1.25rem;
 }
 
-.gap-\[50px\] {
-  gap: 50px;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-\[5px\] {
-  gap: 5px;
-}
-
 .gap-\[10px\] {
   gap: 10px;
 }
 
-.border-t {
-  border-top-width: 1px;
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[0px\] {
+  gap: 0px;
+}
+
+.gap-\[80px\] {
+  gap: 80px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[60px\] {
+  gap: 60px;
+}
+
+.gap-\[70px\] {
+  gap: 70px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
 }
 
 .bg-\[\#084935\] {
@@ -711,14 +696,13 @@ video {
   background-color: rgb(254 251 241 / var(--tw-bg-opacity, 1));
 }
 
-.py-\[40px\] {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.p-\[80px\] {
+  padding: 80px;
 }
 
-.py-\[80px\] {
-  padding-top: 80px;
-  padding-bottom: 80px;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-\[20px\] {
@@ -726,46 +710,67 @@ video {
   padding-bottom: 20px;
 }
 
-.px-\[80px\] {
-  padding-left: 80px;
-  padding-right: 80px;
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.px-\[8px\] {
-  padding-left: 8px;
-  padding-right: 8px;
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.pl-\[120px\] {
-  padding-left: 120px;
+.py-\[120px\] {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.pl-\[140px\] {
-  padding-left: 140px;
+.py-\[0px\] {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-.pl-\[150px\] {
-  padding-left: 150px;
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.pb-\[80px\] {
+  padding-bottom: 80px;
+}
+
+.pb-\[120px\] {
+  padding-bottom: 120px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-\[30px\] {
   font-size: 30px;
 }
 
+.text-\[35px\] {
+  font-size: 35px;
+}
+
 .text-\[80px\] {
   font-size: 80px;
 }
 
-.text-\[32px\] {
-  font-size: 32px;
-}
-
-.text-\[33px\] {
-  font-size: 33px;
-}
-
-.text-\[35px\] {
-  font-size: 35px;
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .text-\[\#703412\] {
@@ -773,11 +778,66 @@ video {
   color: rgb(112 52 18 / var(--tw-text-opacity, 1));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\] {
   color: ;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .md\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:py-\[120px\] {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .md\:text-start {
+    text-align: start;
+  }
+
+  .md\:text-\[80px\] {
+    font-size: 80px;
+  }
 }
